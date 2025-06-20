@@ -1,0 +1,421 @@
+@font-face {
+    font-family: "ClimateCrisisKR-1979";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/ClimateCrisisKR-1979.woff2")
+        format("woff2");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HakgyoansimChilpanjiugaeTTF-B";
+    src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimChilpanjiugaeTTF-B.woff2")
+        format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@import url("https://fonts.cdnfonts.com/css/nanumsquare-neo");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 157px;
+    background-color: rgb(0, 0, 0, 0.5);
+    z-index: 100;
+}
+
+#nav {
+    width: 1420px;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu1 .menu2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img {
+    width: 464px;
+}
+.menu1 img {
+    width: 120px;
+}
+.menu2 img {
+    width: 120px;
+}
+
+#mainImg {
+    width: 100%;
+}
+
+#mainImg img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+img {
+    width: 100%;
+}
+
+#mainContainer {
+    width: 1420px;
+    /* background-color: antiquewhite; */
+    margin: 0px auto;
+}
+
+.waterFall1 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.waterFall2 {
+    display: flex;
+    flex-direction: column;
+}
+
+#warp {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 172px;
+    background-color: rgb(0, 0, 0, 0.5);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    width: 464.8px;
+    height: 95.97px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.logo img {
+    width: 90%;
+}
+
+.navi {
+    width: 705px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    justify-content: space-evenly;
+}
+
+.navi .items {
+    color: black;
+}
+
+img {
+    width: 100%;
+}
+
+#main-image {
+    width: 100%;
+    height: 1283.16px;
+
+    display: flex;
+    align-items: center;
+
+    top: 0px;
+}
+
+#main {
+    width: 1321.79px;
+    height: 1600px;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: start;
+    display: flex;
+    top: 1374.49px;
+}
+
+.maincontent {
+    width: 247.79px;
+    height: 1600px;
+    background-color: black;
+    margin-bottom: 100px;
+}
+
+.textkr-title {
+    font-family: "ClimateCrisisKR-1979", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+.row {
+    width: 1322px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.col1 {
+    width: 8.33%;
+    padding: 10px;
+}
+.col2 {
+    width: 16.66%;
+    padding: 10px;
+}
+.col3 {
+    width: 24.99%;
+    padding: 10px;
+}
+.col4 {
+    width: 33.33%;
+    padding: 10px;
+}
+.col5 {
+    width: 41.66%;
+    padding: 10px;
+}
+.col6 {
+    width: 50%;
+    padding: 10px;
+}
+.col7 {
+    width: 58.33%;
+    padding: 10px;
+}
+.col8 {
+    width: 66.66%;
+    padding: 10px;
+}
+.col9 {
+    width: 74.99%;
+    padding: 10px;
+}
+.col10 {
+    width: 83.33%;
+    padding: 10px;
+}
+.col11 {
+    width: 91.66%;
+    padding: 10px;
+}
+.col12 {
+    width: 100%;
+    padding: 10px;
+}
+
+/* 여기부터 시작 */
+.relative {
+    position: relative;
+}
+
+.gap-100 {
+    gap: 100px;
+}
+
+.gap-50 {
+    gap: 50px;
+}
+
+.mt-80 {
+    margin-top: 80px;
+}
+
+.mt-100 {
+    margin-top: 100px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.mt-180 {
+    margin-top: 180px;
+}
+
+.mt-230 {
+    margin-top: 230px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.section-right {
+    padding-left: 60px;
+}
+
+.section-left {
+    padding-left: 100px;
+}
+
+.section-right-text {
+    margin-top: 70px;
+    color: #fff;
+    font-family: "GmarketSansMedium";
+    line-height: 24px;
+}
+
+.section-arrow {
+    position: absolute;
+    right: -45px;
+    top: 101px;
+}
+
+.section-arrow.type2 {
+    right: -124px;
+    top: 141px;
+}
+
+.section-arrow.type3 {
+    right: -62px;
+    top: 4px;
+}
+
+.section-arrow.type3 span {
+    right: -208px;
+    top: -20px;
+}
+
+.section-arrow.type4 {
+    right: -21px;
+    top: 73px;
+}
+
+.section-arrow.type4 span {
+    right: -208px;
+    top: -20px;
+}
+
+.section-arrow span {
+    position: absolute;
+    right: -96px;
+    top: -18px;
+    font-family: "HakgyoansimChilpanjiugaeTTF-B";
+    color: #c70101;
+    font-size: 48px;
+}
+
+.section-arrow2 {
+    position: absolute;
+    left: 11px;
+    top: 101px;
+}
+
+.section-arrow2.type2 {
+    left: -38px;
+    top: 81px;
+}
+
+.section-arrow2.type2 span {
+    left: -275px;
+    top: -20px;
+}
+
+.section-arrow2 span {
+    position: absolute;
+    left: -205px;
+    top: -18px;
+    font-family: "HakgyoansimChilpanjiugaeTTF-B";
+    color: #c70101;
+    font-size: 48px;
+}
+
+#sectionNews {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-family: "NanumSquare Neo";
+    margin-top: 230px;
+}
+
+.new-title {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 64px;
+}
+
+.new-info {
+    display: flex;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.new-info > div {
+    display: flex;
+    align-items: center;
+    margin-right: 28px;
+    font-weight: bold;
+}
+
+.new-info > div img {
+    margin-right: 5px;
+}
+
+.new-list {
+    width: 520px;
+}
+
+.new-list a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 2px;
+}
+
+#footer {
+    padding: 20px 50px 20px 20px;
+    margin-top: 180px;
+    border-top: 2px solid #fff;
+    display: flex;
+    justify-content: space-between;
+    font-family: "NanumSquare Neo";
+    font-weight: bold;
+}
+
+#footer a {
+    color: #fff;
+    text-decoration: none;
+}
